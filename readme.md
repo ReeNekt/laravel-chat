@@ -13,14 +13,14 @@ Simple chat application based on Laravel framework, Laravel Echo Server and Sock
 6. Copy `.env.example` to `.env` and edit if you need
 7. If you haven't installed Laravel Echo Server use `sudo npm install -g laravel-echo-server`
 8. Init Laravel Echo: `laravel-echo-server init`
-*Options*
-development mode - yes (Recommended)
-port 6001 (default) (Recommended)
-database - redis (**Necessarily**)
-host - localhost (default) (Recommended)
-HTTP/HTTPS - HTTP (Recommended)
-HTTP API - no
-cross domain access - no
++ *Options*
+   + development mode - yes (Recommended)
+   + port 6001 (default) (Recommended)
+   + database - redis (**Necessarily**)
+   + host - localhost (default) (Recommended)
+   + HTTP/HTTPS - HTTP (Recommended)
+   + HTTP API - no
+   + cross domain access - no
 >*You always can edit this options in config file.
 If you select a port other than 6001, change the line in the resources / js / bootstrap.js file and then use* `npm run dev`
 ```js
